@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="<?php echo get_url('/assets/css/style.css')?>">
-    <title><?php echo $_ENV['site_title'];?></title>
+    <link rel="stylesheet" href="<?php echo get_url('/assets/css/style.css') ?>">
+    <title><?php echo $_ENV['site_title']; ?></title>
 </head>
 
 <body>
@@ -14,7 +15,7 @@
                 <div class="header-block">
                     <div class="header-logo-wrapper header-item">
                         <a href="/" class="header-logo">
-                            <img class=" ls-is-cached lazyloaded" src="<?php echo $_ENV['logo_url'];?>" alt="Logo" />
+                            <img class=" ls-is-cached lazyloaded" src="<?php echo $_ENV['logo_url']; ?>" alt="Logo" />
                         </a>
                     </div>
                     <div class="header-item" style="display: flex; justify-content: flex-end">
@@ -46,25 +47,29 @@
                                         </font>
                                     </a>
                                 </li>
+                                <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                    <a href="#" class="main-button main-button-link login">
+                                        <font>
+                                            <font>Logg inn</font>
+                                        </font>
+                                    </a>
+                                </li>
+                                <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                    <a href="#" class="main-button main-button-link login">
+                                        <font>
+                                            <font>Kontakt Oss</font>
+                                        </font>
+                                    </a>
+                                </li>
+                                <li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20">
+                                    <a href="/page/registration" class="main-button" style="width: 100%">
+                                        <font>
+                                            <font>Registrering</font>
+                                        </font>
+                                    </a>
+                                </li>
                             </ul>
                         </nav>
-                        <div class="header-sign header-item">
-                            <a href="#" class="main-button main-button-link login">
-                                <font>
-                                    <font>Logg inn</font>
-                                </font>
-                            </a>
-                            <a href="#" class="main-button main-button-link login">
-                                <font>
-                                    <font>Kontakt Oss</font>
-                                </font>
-                            </a>
-                            <a href="#" class="main-button" style="width: 100%">
-                                <font>
-                                    <font>Registrering</font>
-                                </font>
-                            </a>
-                        </div>
                     </div>
                 </div>
             </header>

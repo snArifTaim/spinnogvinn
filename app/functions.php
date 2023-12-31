@@ -11,6 +11,9 @@ function get_footer(){
 function get_all_datas(){
     return include app_dir.'/assets/alldatas.php';
 }
+// function get_dbconn(){
+//     return include app_dir.'/assets/dbconn.php';
+// }
 
 function get_game_by_slug($slug){
     foreach(get_all_datas() as $data){

@@ -2,7 +2,7 @@
   font-family: "Harry Potter";
   src: url("//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../fonts/Harry%20Potter.eot");
   /* src: local("../fonts/Harry Potter.eot"),local("../fonts/Harry Potter.eot"),url("//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../fonts/Harry%20Potter.eot?#iefix) format("embedded-opentype"),url(//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../fonts/Harry%20Potter.woff2) format("woff2"),url(//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../fonts/Harry%20Potter.woff) format("woff"),url(//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../fonts/Harry%20Potter.ttf) format("truetype"); */
-  /* font-weight: 400;
+/* font-weight: 400;
   font-style: normal;
   font-display: swap
 } */
@@ -17,7 +17,8 @@
   font-family: "Harry Potter"
 }
 
-html,body {
+html,
+body {
   height: 100%
 }
 
@@ -29,7 +30,9 @@ img {
   max-width: 100%
 }
 
-ul,ol,li {
+ul,
+ol,
+li {
   list-style: none;
   padding: 0;
   margin: 0
@@ -43,7 +46,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   a {
-      -webkit-tap-highlight-color:transparent
+    -webkit-tap-highlight-color: transparent
   }
 }
 
@@ -55,8 +58,8 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .container {
-      max-width:1180px;
-      padding: 0
+    max-width: 1180px;
+    padding: 0
   }
 }
 
@@ -73,7 +76,7 @@ a {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 18px;
@@ -82,33 +85,33 @@ a {
   -moz-border-radius: 12px;
   -ms-border-radius: 12px;
   border-radius: 12px;
-  background: linear-gradient(82.33deg,#1e8385 31.03%,#873e87 113.12%);
+  background: linear-gradient(82.33deg, #1e8385 31.03%, #873e87 113.12%);
   border-radius: 8px
 }
 
 @media only screen and (min-width: 1241px) {
   .main-button {
-      padding:0 53px;
-      -webkit-transition: all .5s ease;
-      -moz-transition: all .5s ease;
-      -ms-transition: all .5s ease;
-      -o-transition: all .5s ease;
-      transition: all .5s ease
+    padding: 0 53px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease
   }
 
   .main-button:hover {
-      box-shadow: 0px 4px 31px rgba(39,228,160,.84)
+    box-shadow: 0px 4px 31px rgba(39, 228, 160, .84)
   }
 }
 
 .main-button .name {
   z-index: 1;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700
 }
 
 .main-button-link {
-  background: rgba(255,255,255,0);
+  background: rgba(255, 255, 255, 0);
   max-width: none;
   display: inline-block;
   height: auto;
@@ -124,7 +127,7 @@ a {
   width: 100%;
   height: 20px;
   border-radius: 40px;
-  background: rgba(245,214,2,.35);
+  background: rgba(245, 214, 2, .35);
   filter: blur(10.5px);
   position: absolute;
   left: 0;
@@ -139,25 +142,25 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .main-button-link:hover {
-      -webkit-box-shadow:none;
-      -moz-box-shadow: none;
-      box-shadow: none;
-      color: #27e4a0
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: #27e4a0
   }
 
   .main-button-link:hover:before {
-      opacity: 1
+    opacity: 1
   }
 }
 
 .header {
-  background: linear-gradient(26.05deg,#3a1839 19.24%,#048263 161%);
+  background: linear-gradient(26.05deg, #3a1839 19.24%, #048263 161%);
   padding: 0 16px
 }
 
 @media only screen and (min-width: 1241px) {
   .header {
-      padding:0 50px
+    padding: 0 50px
   }
 }
 
@@ -167,7 +170,7 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .header.header-with-container .header-burger.active {
-      left:calc((0px - 100vw + 1200px)/2 + 50px)
+    left: calc((0px - 100vw + 1200px)/2 + 50px)
   }
 }
 
@@ -215,13 +218,13 @@ a {
 
 @media only screen and (min-width: 992px) {
   .header .header-block .main-button:not(:last-child) {
-      margin-right:35px
+    margin-right: 35px
   }
 }
 
 @media only screen and (min-width: 1241px) {
   .header .header-block .main-button:not(:last-child) {
-      margin-right:79px
+    margin-right: 79px
   }
 }
 
@@ -240,15 +243,15 @@ a {
 
 @media only screen and (min-width: 992px) {
   .header .header-block .header-sign {
-      display:-webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: end;
-      -ms-flex-pack: end;
-      justify-content: flex-end;
-      -webkit-box-align: center;
-      -ms-flex-align: center;
-      align-items: center
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
   }
 }
 
@@ -263,7 +266,7 @@ a {
   z-index: 99;
   width: 48px;
   height: 48px;
-  background: rgba(255,255,255,0);
+  background: rgba(255, 255, 255, 0);
   border: none;
   padding: 10px 6px;
   display: -webkit-box;
@@ -311,7 +314,8 @@ a {
   display: flex
 }
 
-.header .header-burger .header-burger-icon:before,.header .header-burger .header-burger-icon:after {
+.header .header-burger .header-burger-icon:before,
+.header .header-burger .header-burger-icon:after {
   content: "";
   position: absolute;
   left: 0
@@ -330,7 +334,9 @@ a {
   transform-origin: left
 }
 
-.header .header-burger .header-burger-icon span,.header .header-burger .header-burger-icon:before,.header .header-burger .header-burger-icon:after {
+.header .header-burger .header-burger-icon span,
+.header .header-burger .header-burger-icon:before,
+.header .header-burger .header-burger-icon:after {
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   -ms-transition: all .5s ease;
@@ -351,7 +357,7 @@ a {
   right: 0;
   min-width: 320px;
   position: absolute;
-  background: linear-gradient(26.05deg,#3a1839 19.24%,#048263 161%);
+  background: linear-gradient(26.05deg, #3a1839 19.24%, #048263 161%);
   padding: 125px 25px;
   min-height: 100vh;
   z-index: 98;
@@ -370,14 +376,14 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .header .header-modal {
-      padding-left:55px;
-      padding-right: 55px
+    padding-left: 55px;
+    padding-right: 55px
   }
 }
 
 @media only screen and (max-width: 767px) {
   .header .header-modal {
-      width:100%
+    width: 100%
   }
 }
 
@@ -395,7 +401,7 @@ a {
 
 .header .header-modal .menu-item a {
   position: relative;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
   font-size: 16px;
@@ -409,41 +415,40 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .header .header-modal .menu-item a:before {
-      content:"";
-      display: block;
-      width: 100%;
-      height: 20px;
-      border-radius: 40px;
-      background: rgba(177, 74, 172, 0.35);
-      filter: blur(10.5px);
-      position: absolute;
-      left: 0;
-      top: 0;
-      -webkit-transition: .3s ease all;
-      -moz-transition: .3s ease all;
-      -ms-transition: .3s ease all;
-      -o-transition: .3s ease all;
-      transition: .3s ease all;
-      opacity: 0
+    content: "";
+    display: block;
+    width: 100%;
+    height: 20px;
+    border-radius: 40px;
+    background: rgba(177, 74, 172, 0.35);
+    filter: blur(10.5px);
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-transition: .3s ease all;
+    -moz-transition: .3s ease all;
+    -ms-transition: .3s ease all;
+    -o-transition: .3s ease all;
+    transition: .3s ease all;
+    opacity: 0
   }
 
   .header .header-modal .menu-item a:hover {
-      color: #381c3b
+    color: #381c3b
   }
 
   .header .header-modal .menu-item a:hover:before {
-      opacity: 1
+    opacity: 1
   }
 }
 
 .header .header-modal .header-sign {
   margin-top: 20px;
   width: 100%;
-  display: none
 }
 
 .header .header-modal .header-sign .main-button-link {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.2;
@@ -452,16 +457,16 @@ a {
 
 @media only screen and (max-width: 991px) {
   .header .header-modal .header-sign {
-      display:-webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-align: start;
-      -ms-flex-align: start;
-      align-items: flex-start
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start
   }
 }
 
@@ -496,7 +501,8 @@ a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
-  flex-direction: column
+  flex-direction: column;
+  background: linear-gradient(26.05deg, #3a1839 19.24%, #048263 161%);
 }
 
 .footer .decor {
@@ -513,20 +519,16 @@ a {
 
 @media only screen and (max-width: 991px) {
   .footer .decor {
-      right:auto;
-      left: 50%;
-      -moz-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -webkit-transform: translateX(-50%);
-      transform: translateX(-50%);
-      bottom: 23px;
-      width: 262px
+    right: auto;
+    left: 50%;
+    -moz-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 23px;
+    width: 262px
   }
-}
-
-.footer .footer-top {
-  background: linear-gradient(26.05deg,#3a1839 19.24%,#048263 161%)
 }
 
 .footer .footer-top .footer-block {
@@ -544,8 +546,8 @@ a {
 
 @media only screen and (min-width: 992px) {
   .footer .footer-top .footer-block {
-      padding-top:78px;
-      padding-bottom: 96px
+    padding-top: 78px;
+    padding-bottom: 96px
   }
 }
 
@@ -568,7 +570,7 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .footer .footer-top .footer-block .footer-logo:hover img {
-      transform:scale(1.1)
+    transform: scale(1.1)
   }
 }
 
@@ -584,8 +586,8 @@ a {
 
 @media only screen and (min-width: 992px) {
   .footer .footer-top .footer-block .footer-info {
-      margin-right:10px;
-      max-width: 64%
+    margin-right: 10px;
+    max-width: 64%
   }
 }
 
@@ -595,25 +597,29 @@ a {
 
 @media only screen and (min-width: 992px) {
   .footer .footer-top .footer-block .footer-info .disclaimer {
-      margin-top:22px
+    margin-top: 22px
   }
 }
 
-.footer .footer-top .footer-block .footer-info .disclaimer p,.footer .footer-top .footer-block .footer-info .disclaimer h1,.footer .footer-top .footer-block .footer-info .disclaimer h2 {
+.footer .footer-top .footer-block .footer-info .disclaimer p,
+.footer .footer-top .footer-block .footer-info .disclaimer h1,
+.footer .footer-top .footer-block .footer-info .disclaimer h2 {
   color: #bdbdbd;
   font-size: 15px;
   line-height: 22px;
   text-transform: uppercase;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400
 }
 
-.footer .footer-top .footer-block .footer-info .disclaimer p strong,.footer .footer-top .footer-block .footer-info .disclaimer h1 strong,.footer .footer-top .footer-block .footer-info .disclaimer h2 strong {
+.footer .footer-top .footer-block .footer-info .disclaimer p strong,
+.footer .footer-top .footer-block .footer-info .disclaimer h1 strong,
+.footer .footer-top .footer-block .footer-info .disclaimer h2 strong {
   color: #bdbdbd;
   font-size: 15px;
   line-height: 22px;
   text-transform: uppercase;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600
 }
 
@@ -621,7 +627,7 @@ a {
   font-size: 15px;
   line-height: 22px;
   text-transform: uppercase;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   text-decoration: none;
   color: #fae100
@@ -630,7 +636,7 @@ a {
 .footer .footer-top .footer-block .footer-info .disclaimer a strong {
   color: #fff;
   font-size: inherit;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-family: inherit
 }
@@ -641,7 +647,7 @@ a {
 
 @media only screen and (min-width: 992px) {
   .footer .footer-top .footer-block .footer-info .description {
-      margin-top:52px
+    margin-top: 52px
   }
 }
 
@@ -649,14 +655,14 @@ a {
   font-size: 16px;
   line-height: 22px;
   color: #fff;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400
 }
 
 .footer .footer-top .footer-block .footer-info .description p strong {
   color: #fff;
   font-size: inherit;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-family: inherit
 }
@@ -665,14 +671,14 @@ a {
   font-size: 16px;
   line-height: 22px;
   color: #fae100;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400
 }
 
 .footer .footer-top .footer-block .footer-info .description a strong {
   color: #fae100;
   font-size: inherit;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-family: inherit
 }
@@ -683,12 +689,12 @@ a {
 
 @media only screen and (min-width: 992px) {
   .footer .footer-top .footer-block .footer-info-2 {
-      margin-top:32px
+    margin-top: 32px
   }
 }
 
 .footer .footer-top .footer-block .footer-info-2 .description p {
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -698,13 +704,13 @@ a {
 .footer .footer-top .footer-block .footer-info-2 .description p strong {
   color: #fff;
   font-size: inherit;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-family: inherit
 }
 
 .footer .footer-top .footer-block .footer-info-2 .description a {
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;
@@ -715,20 +721,20 @@ a {
 .footer .footer-top .footer-block .footer-info-2 .description a strong {
   color: #fff;
   font-size: inherit;
-  font-family: "Noto Sans",sans-serif;
+  font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-family: inherit
 }
 
 .footer .footer-bottom {
-  background: #000;
+  background: #0000002e;
   text-align: center;
   padding: 32px 0
 }
 
 @media only screen and (max-width: 1240px) {
   .footer .footer-bottom {
-      padding:32px 16px
+    padding: 32px 16px
   }
 }
 
@@ -736,13 +742,13 @@ a {
   font-size: 18px;
   line-height: 25px;
   color: #fff;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700
 }
 
 @media only screen and (max-width: 991px) {
   .footer .footer-bottom .copyright {
-      font-size:16px
+    font-size: 16px
   }
 }
 
@@ -766,7 +772,7 @@ a {
 
 @media only screen and (min-width: 992px) {
   .hero {
-      padding:140px 0 115px
+    padding: 140px 0 115px
   }
 }
 
@@ -823,13 +829,13 @@ a {
   text-align: center;
   max-width: 80%;
   margin: 0 auto 128px;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500
 }
 
 @media only screen and (max-width: 1240px) {
   .content .content-block .content-subtitle {
-      margin:0 auto 40px
+    margin: 0 auto 40px
   }
 }
 
@@ -846,14 +852,14 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content .content-block .gamer {
-      margin:0 0 -34px -95px;
-      text-align: left
+    margin: 0 0 -34px -95px;
+    text-align: left
   }
 }
 
 @media only screen and (max-width: 620px) {
   .content .content-block .gamer {
-      margin:0 0 -31px -95px
+    margin: 0 0 -31px -95px
   }
 }
 
@@ -871,21 +877,21 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content .content-block .content-list {
-      -webkit-box-pack:center;
-      -ms-flex-pack: center;
-      justify-content: center
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
   }
 }
 
 @media only screen and (max-width: 767px) {
   .content .content-block .content-list {
-      -webkit-box-orient:vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
   }
 }
 
@@ -901,20 +907,20 @@ a {
 
 @media only screen and (max-width: 991px) {
   .content .content-block .content-list .content-list-item {
-      margin-top:-50px
+    margin-top: -50px
   }
 }
 
 @media only screen and (max-width: 1240px) {
   .content .content-block .content-list .content-list-item {
-      padding:15px
+    padding: 15px
   }
 }
 
 @media only screen and (max-width: 991px) {
   .content .content-block .content-list .content-list-item {
-      width:100%;
-      padding: 20px 0
+    width: 100%;
+    padding: 20px 0
   }
 }
 
@@ -935,8 +941,8 @@ a {
 
 @media only screen and (max-width: 991px) {
   .content .content-block .content-list .content-list-item .item-wrapper {
-      max-width:350px;
-      margin: 0 auto 48px auto
+    max-width: 350px;
+    margin: 0 auto 48px auto
   }
 }
 
@@ -952,7 +958,7 @@ a {
 
 @media only screen and (max-width: 991px) {
   .content .content-block .content-list .content-list-item .item-wrapper .icon img {
-      height:502px
+    height: 502px
   }
 }
 
@@ -974,36 +980,43 @@ a {
   font-size: 26px
 }
 
-.content .content-block .content-list .content-list-item .item-wrapper .subtitle span,.content .content-block .content-list .content-list-item .item-wrapper .subtitle strong {
+.content .content-block .content-list .content-list-item .item-wrapper .subtitle span,
+.content .content-block .content-list .content-list-item .item-wrapper .subtitle strong {
   color: #27e4a0;
   font-size: 26px
 }
 
 @media only screen and (min-width: 992px) {
-  .content .content-block .content-list .content-list-item:first-child .item-wrapper .title,.content .content-block .content-list .content-list-item:last-child .item-wrapper .title {
-      position:absolute;
-      bottom: 67px;
-      left: 0
+
+  .content .content-block .content-list .content-list-item:first-child .item-wrapper .title,
+  .content .content-block .content-list .content-list-item:last-child .item-wrapper .title {
+    position: absolute;
+    bottom: 67px;
+    left: 0
   }
 
-  .content .content-block .content-list .content-list-item:first-child .item-wrapper .subtitle,.content .content-block .content-list .content-list-item:last-child .item-wrapper .subtitle {
-      position: absolute;
-      top: 30px;
-      left: 0
+  .content .content-block .content-list .content-list-item:first-child .item-wrapper .subtitle,
+  .content .content-block .content-list .content-list-item:last-child .item-wrapper .subtitle {
+    position: absolute;
+    top: 30px;
+    left: 0
   }
 }
 
 @media only screen and (max-width: 991px) {
-  .content .content-block .content-list .content-list-item:first-child .item-wrapper .title,.content .content-block .content-list .content-list-item:last-child .item-wrapper .title {
-      position:absolute;
-      top: 65px;
-      left: 0
+
+  .content .content-block .content-list .content-list-item:first-child .item-wrapper .title,
+  .content .content-block .content-list .content-list-item:last-child .item-wrapper .title {
+    position: absolute;
+    top: 65px;
+    left: 0
   }
 
-  .content .content-block .content-list .content-list-item:first-child .item-wrapper .subtitle,.content .content-block .content-list .content-list-item:last-child .item-wrapper .subtitle {
-      position: absolute;
-      bottom: 32px;
-      left: 0
+  .content .content-block .content-list .content-list-item:first-child .item-wrapper .subtitle,
+  .content .content-block .content-list .content-list-item:last-child .item-wrapper .subtitle {
+    position: absolute;
+    bottom: 32px;
+    left: 0
   }
 }
 
@@ -1019,39 +1032,49 @@ a {
   left: 0
 }
 
-.games,.related-posts {
+.games,
+.related-posts {
   padding-top: 40px
 }
 
-.games .games-block,.related-posts .games-block {
+.games .games-block,
+.related-posts .games-block {
   text-align: center
 }
 
-.games .games-block .games-title-top,.related-posts .games-block .games-title-top {
+.games .games-block .games-title-top,
+.related-posts .games-block .games-title-top {
   margin-bottom: 16px
 }
 
 @media only screen and (min-width: 1241px) {
-  .games .games-block .games-title-top,.related-posts .games-block .games-title-top {
-      margin-bottom:30px
+
+  .games .games-block .games-title-top,
+  .related-posts .games-block .games-title-top {
+    margin-bottom: 30px
   }
 }
 
-.games .games-block .games-title-bottom,.related-posts .games-block .games-title-bottom {
+.games .games-block .games-title-bottom,
+.related-posts .games-block .games-title-bottom {
   margin-top: 20px
 }
 
 @media only screen and (min-width: 1241px) {
-  .games .games-block .games-title-bottom,.related-posts .games-block .games-title-bottom {
-      margin-top:30px
+
+  .games .games-block .games-title-bottom,
+  .related-posts .games-block .games-title-bottom {
+    margin-top: 30px
   }
 }
 
-.games .games-block .games-title,.related-posts .games-block .games-title {
+.games .games-block .games-title,
+.related-posts .games-block .games-title {
   margin: 0 auto
 }
 
-.games .games-block .games-title .name,.related-posts .games-block .games-title .name {
+.games .games-block .games-title .name,
+.related-posts .games-block .games-title .name {
   font-size: 42px;
   line-height: 63px;
   text-align: center;
@@ -1059,25 +1082,31 @@ a {
   color: #27e4a0
 }
 
-.games .games-block .games-description,.related-posts .games-block .games-description {
+.games .games-block .games-description,
+.related-posts .games-block .games-description {
   margin: 16px auto 40px auto
 }
 
-.games .games-block .games-description p,.related-posts .games-block .games-description p {
+.games .games-block .games-description p,
+.related-posts .games-block .games-description p {
   text-align: center
 }
 
-.games .games-block .games-description p:not(:last-child),.related-posts .games-block .games-description p:not(:last-child) {
+.games .games-block .games-description p:not(:last-child),
+.related-posts .games-block .games-description p:not(:last-child) {
   margin-bottom: 20px
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-block .games-description,.related-posts .games-block .games-description {
-      max-width:742px
+
+  .games .games-block .games-description,
+  .related-posts .games-block .games-description {
+    max-width: 742px
   }
 }
 
-.games .games-card-list,.related-posts .games-card-list {
+.games .games-card-list,
+.related-posts .games-card-list {
   padding-top: 40px;
   width: 100%;
   margin-bottom: 40px;
@@ -1086,103 +1115,127 @@ a {
 }
 
 @media only screen and (max-width: 991px) {
-  .games .games-card-list,.related-posts .games-card-list {
-      grid-template-columns:repeat(2,1fr);
-      margin-bottom: 20px
+
+  .games .games-card-list,
+  .related-posts .games-card-list {
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 20px
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .games .games-card-list,.related-posts .games-card-list {
-      grid-template-columns:repeat(1,1fr);
-      grid-template-rows: repeat(1,224px)
+
+  .games .games-card-list,
+  .related-posts .games-card-list {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 224px)
   }
 }
 
-.games .games-card-list .game-card,.related-posts .games-card-list .game-card {
+.games .games-card-list .game-card,
+.related-posts .games-card-list .game-card {
   outline: none
 }
 
-.games .games-card-list .game-card .game-card-wrapper .image img,.related-posts .games-card-list .game-card .game-card-wrapper .image img {
+.games .games-card-list .game-card .game-card-wrapper .image img,
+.related-posts .games-card-list .game-card .game-card-wrapper .image img {
   min-height: 224px;
   max-height: 224px
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:first-child,.related-posts .games-card-list .game-card:first-child {
-      grid-column-start:1;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 2
+
+  .games .games-card-list .game-card:first-child,
+  .related-posts .games-card-list .game-card:first-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:nth-child(2),.related-posts .games-card-list .game-card:nth-child(2) {
-      grid-column-start:3;
-      grid-column-end: 5;
-      grid-row-start: 1;
-      grid-row-end: 3
+
+  .games .games-card-list .game-card:nth-child(2),
+  .related-posts .games-card-list .game-card:nth-child(2) {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3
   }
 
-  .games .games-card-list .game-card:nth-child(2) .game-card-wrapper .image img,.related-posts .games-card-list .game-card:nth-child(2) .game-card-wrapper .image img {
-      min-height: 467px;
-      max-height: 467px
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:nth-child(3),.related-posts .games-card-list .game-card:nth-child(3) {
-      grid-column-start:1;
-      grid-column-end: 3;
-      grid-row-start: 2;
-      grid-row-end: 3
+  .games .games-card-list .game-card:nth-child(2) .game-card-wrapper .image img,
+  .related-posts .games-card-list .game-card:nth-child(2) .game-card-wrapper .image img {
+    min-height: 467px;
+    max-height: 467px
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:nth-child(4),.related-posts .games-card-list .game-card:nth-child(4) {
-      grid-column-start:1;
-      grid-column-end: 1;
-      grid-row-start: 3;
-      grid-row-end: 3
+
+  .games .games-card-list .game-card:nth-child(3),
+  .related-posts .games-card-list .game-card:nth-child(3) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:nth-child(5),.related-posts .games-card-list .game-card:nth-child(5) {
-      grid-column-start:2;
-      grid-column-end: 2;
-      grid-row-start: 3;
-      grid-row-end: 3
+
+  .games .games-card-list .game-card:nth-child(4),
+  .related-posts .games-card-list .game-card:nth-child(4) {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 3;
+    grid-row-end: 3
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:nth-child(6),.related-posts .games-card-list .game-card:nth-child(6) {
-      grid-column-start:3;
-      grid-column-end: 3;
-      grid-row-start: 3;
-      grid-row-end: 3
+
+  .games .games-card-list .game-card:nth-child(5),
+  .related-posts .games-card-list .game-card:nth-child(5) {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3
   }
 }
 
 @media only screen and (min-width: 992px) {
-  .games .games-card-list .game-card:last-child,.related-posts .games-card-list .game-card:last-child {
-      grid-column-start:4;
-      grid-column-end: 4;
-      grid-row-start: 3;
-      grid-row-end: 3
+
+  .games .games-card-list .game-card:nth-child(6),
+  .related-posts .games-card-list .game-card:nth-child(6) {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 3
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .games .games-card-list .game-card:last-child,
+  .related-posts .games-card-list .game-card:last-child {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3
   }
 }
 
 @media only screen and (max-width: 1240px) {
-  .games .games-card-list .game-card,.related-posts .games-card-list .game-card {
-      -webkit-tap-highlight-color:transparent
+
+  .games .games-card-list .game-card,
+  .related-posts .games-card-list .game-card {
+    -webkit-tap-highlight-color: transparent
   }
 }
 
-.games .games-card-list .game-card .game-card-wrapper,.related-posts .games-card-list .game-card .game-card-wrapper {
+.games .games-card-list .game-card .game-card-wrapper,
+.related-posts .games-card-list .game-card .game-card-wrapper {
   cursor: pointer;
   transition: all .5s ease;
   outline: none;
@@ -1194,18 +1247,23 @@ a {
 }
 
 @media only screen and (min-width: 1241px) {
-  .games .games-card-list .game-card .game-card-wrapper:hover,.related-posts .games-card-list .game-card .game-card-wrapper:hover {
-      transform:translateY(-10px)
+
+  .games .games-card-list .game-card .game-card-wrapper:hover,
+  .related-posts .games-card-list .game-card .game-card-wrapper:hover {
+    transform: translateY(-10px)
   }
 }
 
 @media only screen and (max-width: 1240px) {
-  .games .games-card-list .game-card .game-card-wrapper,.related-posts .games-card-list .game-card .game-card-wrapper {
-      -webkit-tap-highlight-color:transparent
+
+  .games .games-card-list .game-card .game-card-wrapper,
+  .related-posts .games-card-list .game-card .game-card-wrapper {
+    -webkit-tap-highlight-color: transparent
   }
 }
 
-.games .games-card-list .game-card .game-card-wrapper .info-wrapper,.related-posts .games-card-list .game-card .game-card-wrapper .info-wrapper {
+.games .games-card-list .game-card .game-card-wrapper .info-wrapper,
+.related-posts .games-card-list .game-card .game-card-wrapper .info-wrapper {
   padding: 0 20px;
   position: absolute;
   bottom: 16px;
@@ -1213,7 +1271,8 @@ a {
   width: 100%
 }
 
-.games .games-card-list .game-card .game-card-wrapper .info-wrapper .title-wrapper,.related-posts .games-card-list .game-card .game-card-wrapper .info-wrapper .title-wrapper {
+.games .games-card-list .game-card .game-card-wrapper .info-wrapper .title-wrapper,
+.related-posts .games-card-list .game-card .game-card-wrapper .info-wrapper .title-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1223,7 +1282,8 @@ a {
   flex-direction: column-reverse
 }
 
-.games .games-card-list .game-card .game-card-wrapper .image,.related-posts .games-card-list .game-card .game-card-wrapper .image {
+.games .games-card-list .game-card .game-card-wrapper .image,
+.related-posts .games-card-list .game-card .game-card-wrapper .image {
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   -ms-border-radius: 20px;
@@ -1231,7 +1291,8 @@ a {
   overflow: hidden
 }
 
-.games .games-card-list .game-card .game-card-wrapper .image img,.related-posts .games-card-list .game-card .game-card-wrapper .image img {
+.games .games-card-list .game-card .game-card-wrapper .image img,
+.related-posts .games-card-list .game-card .game-card-wrapper .image img {
   width: 100%;
   object-fit: cover;
   -webkit-border-radius: 20px;
@@ -1240,8 +1301,9 @@ a {
   border-radius: 20px
 }
 
-.games .games-card-list .game-card .game-card-wrapper .title,.related-posts .games-card-list .game-card .game-card-wrapper .title {
-  font-family: "Nunito",sans-serif;
+.games .games-card-list .game-card .game-card-wrapper .title,
+.related-posts .games-card-list .game-card .game-card-wrapper .title {
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #fff;
   font-size: 24px;
@@ -1250,57 +1312,78 @@ a {
 }
 
 @media only screen and (max-width: 1240px) {
-  .games .games-card-list .game-card .game-card-wrapper .title,.related-posts .games-card-list .game-card .game-card-wrapper .title {
-      font-size:20px
+
+  .games .games-card-list .game-card .game-card-wrapper .title,
+  .related-posts .games-card-list .game-card .game-card-wrapper .title {
+    font-size: 20px
   }
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating,.related-posts .games-card-list .game-card .game-card-wrapper .rating {
+.games .games-card-list .game-card .game-card-wrapper .rating,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating {
   position: relative;
   max-width: 160px;
   margin: 0 0 8px
 }
 
 @media only screen and (max-width: 1240px) {
-  .games .games-card-list .game-card .game-card-wrapper .rating,.related-posts .games-card-list .game-card .game-card-wrapper .rating {
-      margin:0 0 8px
+
+  .games .games-card-list .game-card .game-card-wrapper .rating,
+  .related-posts .games-card-list .game-card .game-card-wrapper .rating {
+    margin: 0 0 8px
   }
 }
 
 @media only screen and (max-width: 767px) {
-  .games .games-card-list .game-card .game-card-wrapper .rating,.related-posts .games-card-list .game-card .game-card-wrapper .rating {
-      max-width:295px
+
+  .games .games-card-list .game-card .game-card-wrapper .rating,
+  .related-posts .games-card-list .game-card .game-card-wrapper .rating {
+    max-width: 295px
   }
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner {
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner {
   z-index: 4;
   overflow: hidden;
   position: relative
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer {
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 3
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner,.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer {
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner,
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star,.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star {
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star,
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star {
   margin-right: 8px
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star:last-child,.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star:last-child,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star:last-child,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star:last-child {
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star:last-child,
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star:last-child,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star:last-child,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star:last-child {
   margin-right: 0
 }
 
-.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img {
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,
+.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,
+.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img {
   min-width: 23.53px;
   max-width: 23.53px;
   min-height: 24.74px;
@@ -1308,17 +1391,22 @@ a {
 }
 
 @media only screen and (max-width: 1240px) {
-  .games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,.games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,.related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img {
-      min-width:28.53px;
-      max-width: 28.53px;
-      min-height: 29.74px;
-      max-height: 29.74px
+
+  .games .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,
+  .games .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img,
+  .related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-inner .star img,
+  .related-posts .games-card-list .game-card .game-card-wrapper .rating .rating-outer .star img {
+    min-width: 28.53px;
+    max-width: 28.53px;
+    min-height: 29.74px;
+    max-height: 29.74px
   }
 }
 
-.games .games-card-list .game-card .game-card-wrapper .play-now-btn,.related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn {
+.games .games-card-list .game-card .game-card-wrapper .play-now-btn,
+.related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn {
   background: #0cc47c;
-  box-shadow: 0px 8px 4px rgba(255,167,65,.09),0px 3px 0px rgba(139,139,139,.1);
+  box-shadow: 0px 8px 4px rgba(255, 167, 65, .09), 0px 3px 0px rgba(139, 139, 139, .1);
   border: none;
   border-bottom: 2px solid #fff;
   border-radius: 133px;
@@ -1340,27 +1428,32 @@ a {
 }
 
 @media only screen and (min-width: 1241px) {
-  .games .games-card-list .game-card .game-card-wrapper .play-now-btn:hover,.related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn:hover {
-      background:#099760;
-      box-shadow: 0px 11px 6px rgba(14,159,99,.03);
-      border-bottom: 1px solid #fff;
-      transition: all .5s ease
+
+  .games .games-card-list .game-card .game-card-wrapper .play-now-btn:hover,
+  .related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn:hover {
+    background: #099760;
+    box-shadow: 0px 11px 6px rgba(14, 159, 99, .03);
+    border-bottom: 1px solid #fff;
+    transition: all .5s ease
   }
 }
 
 @media only screen and (max-width: 1240px) {
-  .games .games-card-list .game-card .game-card-wrapper .play-now-btn,.related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn {
-      background:linear-gradient(180deg,#2ac76f 0%,#099760 100%);
-      min-width: 233px;
-      max-width: 233px;
-      height: 62px
+
+  .games .games-card-list .game-card .game-card-wrapper .play-now-btn,
+  .related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn {
+    background: linear-gradient(180deg, #2ac76f 0%, #099760 100%);
+    min-width: 233px;
+    max-width: 233px;
+    height: 62px
   }
 }
 
-.games .games-card-list .game-card .game-card-wrapper .play-now-btn .name,.related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn .name {
+.games .games-card-list .game-card .game-card-wrapper .play-now-btn .name,
+.related-posts .games-card-list .game-card .game-card-wrapper .play-now-btn .name {
   font-size: 17px;
   line-height: 21px;
-  text-shadow: 0px 3px 3px rgba(0,0,0,.25),0px 1px 0px #078f59
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, .25), 0px 1px 0px #078f59
 }
 
 .newsletter {
@@ -1369,14 +1462,14 @@ a {
 
 @media only screen and (min-width: 992px) {
   .newsletter {
-      padding:200px 0 100px
+    padding: 200px 0 100px
   }
 }
 
 @media only screen and (max-width: 991px) {
   .newsletter {
-      padding-top:100px;
-      padding-bottom: 100px
+    padding-top: 100px;
+    padding-bottom: 100px
   }
 }
 
@@ -1395,27 +1488,27 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .newsletter .content-list {
-      -webkit-box-pack:center;
-      -ms-flex-pack: center;
-      justify-content: center
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center
   }
 }
 
 @media only screen and (max-width: 767px) {
   .newsletter .content-list {
-      -webkit-box-orient:vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      -webkit-box-pack: start;
-      -ms-flex-pack: start;
-      justify-content: flex-start
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start
   }
 }
 
 @media only screen and (min-width: 992px) {
   .newsletter .content-list {
-      margin-bottom:100px
+    margin-bottom: 100px
   }
 }
 
@@ -1430,14 +1523,14 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .newsletter .content-list .content-list-item {
-      padding:15px
+    padding: 15px
   }
 }
 
 @media only screen and (max-width: 991px) {
   .newsletter .content-list .content-list-item {
-      width:100%;
-      padding: 20px 0
+    width: 100%;
+    padding: 20px 0
   }
 }
 
@@ -1458,8 +1551,8 @@ a {
 
 @media only screen and (max-width: 991px) {
   .newsletter .content-list .content-list-item .item-wrapper {
-      max-width:350px;
-      margin: 0 auto 48px auto
+    max-width: 350px;
+    margin: 0 auto 48px auto
   }
 }
 
@@ -1475,7 +1568,7 @@ a {
 
 @media only screen and (max-width: 991px) {
   .newsletter .content-list .content-list-item .item-wrapper .icon img {
-      height:502px
+    height: 502px
   }
 }
 
@@ -1497,36 +1590,43 @@ a {
   font-size: 26px
 }
 
-.newsletter .content-list .content-list-item .item-wrapper .subtitle span,.newsletter .content-list .content-list-item .item-wrapper .subtitle strong {
+.newsletter .content-list .content-list-item .item-wrapper .subtitle span,
+.newsletter .content-list .content-list-item .item-wrapper .subtitle strong {
   color: #27e4a0;
   font-size: 26px
 }
 
 @media only screen and (min-width: 992px) {
-  .newsletter .content-list .content-list-item:first-child .item-wrapper .title,.newsletter .content-list .content-list-item:last-child .item-wrapper .title {
-      position:absolute;
-      bottom: 67px;
-      left: 0
+
+  .newsletter .content-list .content-list-item:first-child .item-wrapper .title,
+  .newsletter .content-list .content-list-item:last-child .item-wrapper .title {
+    position: absolute;
+    bottom: 67px;
+    left: 0
   }
 
-  .newsletter .content-list .content-list-item:first-child .item-wrapper .subtitle,.newsletter .content-list .content-list-item:last-child .item-wrapper .subtitle {
-      position: absolute;
-      top: 30px;
-      left: 0
+  .newsletter .content-list .content-list-item:first-child .item-wrapper .subtitle,
+  .newsletter .content-list .content-list-item:last-child .item-wrapper .subtitle {
+    position: absolute;
+    top: 30px;
+    left: 0
   }
 }
 
 @media only screen and (max-width: 991px) {
-  .newsletter .content-list .content-list-item:first-child .item-wrapper .title,.newsletter .content-list .content-list-item:last-child .item-wrapper .title {
-      position:absolute;
-      top: 65px;
-      left: 0
+
+  .newsletter .content-list .content-list-item:first-child .item-wrapper .title,
+  .newsletter .content-list .content-list-item:last-child .item-wrapper .title {
+    position: absolute;
+    top: 65px;
+    left: 0
   }
 
-  .newsletter .content-list .content-list-item:first-child .item-wrapper .subtitle,.newsletter .content-list .content-list-item:last-child .item-wrapper .subtitle {
-      position: absolute;
-      bottom: 32px;
-      left: 0
+  .newsletter .content-list .content-list-item:first-child .item-wrapper .subtitle,
+  .newsletter .content-list .content-list-item:last-child .item-wrapper .subtitle {
+    position: absolute;
+    bottom: 32px;
+    left: 0
   }
 }
 
@@ -1546,7 +1646,7 @@ a {
   max-width: 882px;
   margin-left: auto;
   margin-right: auto;
-  background: linear-gradient(109.06deg,#0c0f1a 13.62%,#132e41 82.56%);
+  background: linear-gradient(109.06deg, #0c0f1a 13.62%, #132e41 82.56%);
   border-radius: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1562,8 +1662,8 @@ a {
 
 @media only screen and (max-width: 991px) {
   .newsletter .newsletter-block {
-      padding-left:30px;
-      padding-right: 30px
+    padding-left: 30px;
+    padding-right: 30px
   }
 }
 
@@ -1573,7 +1673,7 @@ a {
 
 @media only screen and (max-width: 767px) {
   .newsletter .newsletter-block .newsletter-decor {
-      display:none
+    display: none
   }
 }
 
@@ -1584,7 +1684,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .newsletter .newsletter-block .newsletter-decor.newsletter-decor-left {
-      left:0
+    left: 0
   }
 }
 
@@ -1595,7 +1695,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .newsletter .newsletter-block .newsletter-decor.newsletter-decor-right {
-      right:0
+    right: 0
   }
 }
 
@@ -1610,14 +1710,14 @@ a {
 
 @media only screen and (max-width: 991px) {
   .newsletter .newsletter-block .newsletter-title {
-      font-size:32px;
-      line-height: 56px
+    font-size: 32px;
+    line-height: 56px
   }
 }
 
 .newsletter .newsletter-block .newsletter-subtitle {
   text-align: center;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 26px;
@@ -1628,8 +1728,8 @@ a {
 
 @media only screen and (max-width: 991px) {
   .newsletter .newsletter-block .newsletter-subtitle {
-      font-size:15px;
-      line-height: 18px
+    font-size: 15px;
+    line-height: 18px
   }
 }
 
@@ -1665,14 +1765,14 @@ a {
   padding-left: 28px;
   padding-right: 28px;
   border: none;
-  box-shadow: 0px 2px 2px rgba(0,0,0,.15);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .15);
   border-radius: 8px;
   outline: none
 }
 
 .newsletter .newsletter-block .newsletter-form .newsletter-input input::placeholder {
   color: #6a6a6a;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   line-height: 22px
 }
@@ -1691,7 +1791,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form {
-      padding:50px 0 70px
+    padding: 50px 0 70px
   }
 }
 
@@ -1701,7 +1801,7 @@ a {
 
 .content__form .content-block form {
   padding: 50px 75px;
-  background: linear-gradient(109.06deg,#0c0f1a 13.62%,#132e41 82.56%);
+  background: linear-gradient(109.06deg, #0c0f1a 13.62%, #132e41 82.56%);
   border-radius: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1714,7 +1814,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form {
-      padding:25px 30px
+    padding: 25px 30px
   }
 }
 
@@ -1726,11 +1826,11 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form .form-block {
-      -webkit-box-orient:vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column;
-      border-radius: 8px
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    border-radius: 8px
   }
 }
 
@@ -1749,7 +1849,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form .form-block .form-group {
-      margin:0 0 24px
+    margin: 0 0 24px
   }
 }
 
@@ -1759,7 +1859,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form .form-block .form-group .label-wrapper {
-      margin:0 0 12px
+    margin: 0 0 12px
   }
 }
 
@@ -1767,13 +1867,13 @@ a {
   font-size: 18px;
   line-height: 22px;
   color: #fff;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700
 }
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form .form-block .form-group .label-wrapper label {
-      font-size:16px
+    font-size: 16px
   }
 }
 
@@ -1795,12 +1895,12 @@ a {
 }
 
 .content__form .content-block form .form-block .form-group .input-wrapper input {
-  box-shadow: 0px 2px 2px rgba(0,0,0,.15);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .15);
   border-radius: 8px;
   border: none;
   background: #fff;
   color: #767676;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   outline: none;
   width: 100%;
@@ -1821,35 +1921,35 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form .form-block .form-group .input-wrapper input {
-      height:48px;
-      padding: 0 0 0 18px
+    height: 48px;
+    padding: 0 0 0 18px
   }
 }
 
 @media only screen and (min-width: 1241px) {
   .content__form .content-block form .form-block .form-group .input-wrapper input:hover {
-      box-shadow:0px 2px 2px rgba(0,0,0,.35)
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, .35)
   }
 }
 
 .content__form .content-block form .form-block .form-group .input-wrapper input:focus {
-  box-shadow: 0px 2px 2px rgba(0,0,0,.35)
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .35)
 }
 
 .content__form .content-block form .form-block .form-group .input-wrapper input::placeholder {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   color: #767676
 }
 
 .content__form .content-block form .form-block .form-group .input-wrapper textarea {
   resize: none;
-  box-shadow: 0px 2px 2px rgba(0,0,0,.15);
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, .15);
   border-radius: 8px;
   border: none;
   background: #fff;
   color: #767676;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   outline: none;
   width: 100%;
@@ -1859,12 +1959,12 @@ a {
 
 @media only screen and (max-width: 991px) {
   .content__form .content-block form .form-block .form-group .input-wrapper textarea {
-      height:150px
+    height: 150px
   }
 }
 
 .content__form .content-block form .form-block .form-group .input-wrapper textarea::placeholder {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   color: #767676
 }
@@ -1875,7 +1975,8 @@ a {
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
-  justify-content: center
+  justify-content: center;
+  justify-content: flex-start;
 }
 
 .content__form .content-block form .submit-block .submit-btn {
@@ -1883,9 +1984,9 @@ a {
   border: none;
   border-bottom: 2px solid #fff;
   border-radius: 133px;
-  box-shadow: 0px 8px 4px rgba(255,167,65,.09),0px 3px 0px rgba(139,139,139,.1);
+  box-shadow: 0px 8px 4px rgba(255, 167, 65, .09), 0px 3px 0px rgba(139, 139, 139, .1);
   outline: none;
-  text-shadow: 0px 3px 3px rgba(0,0,0,.25),0px 1px 0px #078f59;
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, .25), 0px 1px 0px #078f59;
   font-size: 21px;
   line-height: 26px;
   color: #fff;
@@ -1912,16 +2013,16 @@ a {
 
 @media only screen and (min-width: 1241px) {
   .content__form .content-block form .submit-block .submit-btn:hover {
-      border-bottom:2px solid transparent;
-      background: #0cc47c
+    border-bottom: 2px solid transparent;
+    background: #0cc47c
   }
 }
 
 @media only screen and (max-width: 1240px) {
   .content__form .content-block form .submit-block .submit-btn {
-      margin:24px 0 0;
-      border: 2px solid #fff;
-      -webkit-tap-highlight-color: transparent
+    margin: 24px 0 0;
+    border: 2px solid #fff;
+    -webkit-tap-highlight-color: transparent
   }
 }
 
@@ -1946,7 +2047,7 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .content__form.register form {
-      padding:43px 20px 56px
+    padding: 43px 20px 56px
   }
 }
 
@@ -1957,14 +2058,14 @@ a {
 }
 
 .content__form.register form .form-block .form-group {
-  width: 50%;
+  width: 100%;
   padding: 0 31.5px 0 0
 }
 
 @media only screen and (max-width: 1240px) {
   .content__form.register form .form-block .form-group {
-      width:100%;
-      padding: 0
+    width: 100%;
+    padding: 0
   }
 }
 
@@ -1976,7 +2077,7 @@ a {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0,0,0,.57);
+  background: rgba(0, 0, 0, .57);
   backdrop-filter: blur(11px);
   display: none
 }
@@ -1985,7 +2086,7 @@ a {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-image: url(//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../img/bg-popup.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -2007,14 +2108,14 @@ a {
 
 @media only screen and (max-width: 1240px) {
   .modal-overlay .modal-window .modal-close {
-      -webkit-tap-highlight-color:transparent
+    -webkit-tap-highlight-color: transparent
   }
 }
 
 @media only screen and (max-width: 991px) {
   .modal-overlay .modal-window .modal-close {
-      top:13px;
-      right: 13px
+    top: 13px;
+    right: 13px
   }
 }
 
@@ -2037,7 +2138,7 @@ a {
 
 @media only screen and (max-width: 991px) {
   .modal-overlay .modal-window .modal-content {
-      min-width:343px
+    min-width: 343px
   }
 }
 
@@ -2063,7 +2164,7 @@ a {
 
 @media only screen and (max-width: 991px) {
   .modal-overlay .modal-window .modal-content .decor .top-star {
-      left:19px
+    left: 19px
   }
 }
 
@@ -2074,7 +2175,7 @@ a {
 
 @media only screen and (max-width: 991px) {
   .modal-overlay .modal-window .modal-content .decor .bottom-star {
-      right:25px
+    right: 25px
   }
 }
 
@@ -2093,10 +2194,10 @@ a {
 
 @media only screen and (max-width: 991px) {
   .modal-overlay .modal-window .modal-content .modal-title {
-      margin:0 auto 36px;
-      max-width: 261px;
-      font-size: 32px;
-      line-height: 40px
+    margin: 0 auto 36px;
+    max-width: 261px;
+    font-size: 32px;
+    line-height: 40px
   }
 }
 
@@ -2123,11 +2224,11 @@ a {
   left: 50%;
   background: 0 0 !important;
   top: 50%;
-  -moz-transform: translate(-50%,-50%);
-  -o-transform: translate(-50%,-50%);
-  -ms-transform: translate(-50%,-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%)
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%)
 }
 
 .content__form.game.show {
@@ -2185,17 +2286,17 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .page-bg {
-      top:123px
+    top: 123px
   }
 }
 
 .page-content-bg {
   flex-grow: 1;
   background: #301b65;
-  background: -moz-linear-gradient(top,#301b65 0%,#211c5c 100%);
-  background: -webkit-linear-gradient(top,#301b65 0%,#211c5c 100%);
-  background: linear-gradient(to bottom,#301b65 0%,#211c5c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#301b65",endColorstr="#211c5c",GradientType=0)
+  background: -moz-linear-gradient(top, #301b65 0%, #211c5c 100%);
+  background: -webkit-linear-gradient(top, #301b65 0%, #211c5c 100%);
+  background: linear-gradient(to bottom, #301b65 0%, #211c5c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#301b65", endColorstr="#211c5c", GradientType=0)
 }
 
 .page-content {
@@ -2213,7 +2314,8 @@ body.page-template h2 {
   vertical-align: top
 }
 
-.content,.games {
+.content,
+.games {
   background: 0 0
 }
 
@@ -2223,7 +2325,7 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .games {
-      padding-bottom:10px
+    padding-bottom: 10px
   }
 }
 
@@ -2237,31 +2339,48 @@ body.page-template h2 {
   background: #020202
 }
 
-.game-template-default .page-wrap .page-bg .hero-bg,.game-template-default .page-wrap .page-bg .page-content-bg,.page-template-default .page-wrap .page-bg .hero-bg,.page-template-default .page-wrap .page-bg .page-content-bg,.page-template-page-registration .page-wrap .page-bg .hero-bg,.page-template-page-registration .page-wrap .page-bg .page-content-bg,.page-template-page-contact .page-wrap .page-bg .hero-bg,.page-template-page-contact .page-wrap .page-bg .page-content-bg {
+.game-template-default .page-wrap .page-bg .hero-bg,
+.game-template-default .page-wrap .page-bg .page-content-bg,
+.page-template-default .page-wrap .page-bg .hero-bg,
+.page-template-default .page-wrap .page-bg .page-content-bg,
+.page-template-page-registration .page-wrap .page-bg .hero-bg,
+.page-template-page-registration .page-wrap .page-bg .page-content-bg,
+.page-template-page-contact .page-wrap .page-bg .hero-bg,
+.page-template-page-contact .page-wrap .page-bg .page-content-bg {
   display: none
 }
 
-.game-template-default .page-wrap .page-bg .footer-bg,.page-template-default .page-wrap .page-bg .footer-bg,.page-template-page-registration .page-wrap .page-bg .footer-bg,.page-template-page-contact .page-wrap .page-bg .footer-bg {
+.game-template-default .page-wrap .page-bg .footer-bg,
+.page-template-default .page-wrap .page-bg .footer-bg,
+.page-template-page-registration .page-wrap .page-bg .footer-bg,
+.page-template-page-contact .page-wrap .page-bg .footer-bg {
   flex-grow: 1;
   max-height: 100%
 }
 
-.game-template-default .page-wrap .page-bg .footer-bg img,.page-template-default .page-wrap .page-bg .footer-bg img,.page-template-page-registration .page-wrap .page-bg .footer-bg img,.page-template-page-contact .page-wrap .page-bg .footer-bg img {
+.game-template-default .page-wrap .page-bg .footer-bg img,
+.page-template-default .page-wrap .page-bg .footer-bg img,
+.page-template-page-registration .page-wrap .page-bg .footer-bg img,
+.page-template-page-contact .page-wrap .page-bg .footer-bg img {
   height: 100%;
   object-fit: cover
 }
 
-.game-template-default.overlayed .header,.game-template-default.overlayed .page__content,.game-template-default.overlayed .footer {
+.game-template-default.overlayed .header,
+.game-template-default.overlayed .page__content,
+.game-template-default.overlayed .footer {
   position: relative
 }
 
-.game-template-default.overlayed .header:before,.game-template-default.overlayed .page__content:before,.game-template-default.overlayed .footer:before {
+.game-template-default.overlayed .header:before,
+.game-template-default.overlayed .page__content:before,
+.game-template-default.overlayed .footer:before {
   content: "";
   width: 100%;
   height: 100%;
   position: absolute;
   z-index: 100;
-  background: rgba(0,0,0,.85) !important;
+  background: rgba(0, 0, 0, .85) !important;
   -webkit-transition: all .5s ease;
   -moz-transition: all .5s ease;
   -ms-transition: all .5s ease;
@@ -2279,7 +2398,7 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content {
-      padding:50px 0 70px
+    padding: 50px 0 70px
   }
 }
 
@@ -2299,8 +2418,8 @@ body.page-template h2 {
 
 @media only screen and (min-width: 768px) {
   .game-template-default .related-posts .games-card-list {
-      grid-template-columns:repeat(3,1fr);
-      grid-row-gap: 20px
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 20px
   }
 }
 
@@ -2311,33 +2430,33 @@ body.page-template h2 {
 
 @media only screen and (min-width: 768px) {
   .game-template-default .related-posts .games-card-list .game-card:first-child {
-      grid-column-start:1;
-      grid-column-end: 1;
-      grid-row-start: 1;
-      grid-row-end: 1
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1
   }
 }
 
 @media only screen and (min-width: 768px) {
   .game-template-default .related-posts .games-card-list .game-card:nth-child(2) {
-      grid-column-start:2;
-      grid-column-end: 2;
-      grid-row-start: 1;
-      grid-row-end: 1
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1
   }
 
   .game-template-default .related-posts .games-card-list .game-card:nth-child(2) .game-card-wrapper .image img {
-      min-height: 224px;
-      max-height: 224px
+    min-height: 224px;
+    max-height: 224px
   }
 }
 
 @media only screen and (min-width: 768px) {
   .game-template-default .related-posts .games-card-list .game-card:last-child {
-      grid-column-start:3;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 1
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1
   }
 }
 
@@ -2347,13 +2466,13 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content-wrapper {
-      margin-bottom:25px
+    margin-bottom: 25px
   }
 }
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content {
-      padding:50px 0 70px
+    padding: 50px 0 70px
   }
 }
 
@@ -2370,37 +2489,37 @@ body.page-template h2 {
   line-height: 48px;
   text-align: center;
   letter-spacing: .02em;
-  color: #dbff00;
+  color: #27e4a0;
   margin: 0 0 36px
 }
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content .page__content-title .game-info .game-title {
-      font-size:32px;
-      line-height: 38px;
-      margin: 0 0 18px
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0 0 18px
   }
 }
 
 .game-template-default .page__content .page__content-title .game-info .game-subtitle {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  text-shadow: 0px 2px 10px rgba(9,49,183,.3);
+  text-shadow: 0px 2px 10px rgba(9, 49, 183, .3);
   margin: 0 0 16px;
   color: #fff
 }
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content .page__content-title .game-info .game-subtitle {
-      font-size:24px;
-      line-height: 30px
+    font-size: 24px;
+    line-height: 30px
   }
 }
 
 .game-template-default .page__content .page__content-title .game-info .game-description {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   color: #fff
 }
@@ -2408,7 +2527,7 @@ body.page-template h2 {
 .game-template-default .page__content .page__content-wrapper .page__content-main h2 {
   font-size: 28px;
   line-height: 37px;
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 700;
   color: #fff;
   margin: 0 0 16px;
@@ -2416,13 +2535,15 @@ body.page-template h2 {
 }
 
 .game-template-default .page__content .page__content-wrapper .page__content-main p {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 400;
   margin: 0 0 35px
 }
 
 .game-template-default .page__content .page__content-wrapper .page__content-window.game-content-window {
-  position: relative
+  position: relative;
+  align-items: center;
+  display: flex;
 }
 
 .game-template-default .page__content .page__content-wrapper .page__content-window .game-window {
@@ -2448,7 +2569,7 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content .page__content-wrapper .page__content-window .game-window .game-button {
-      min-width:220px
+    min-width: 220px
   }
 }
 
@@ -2500,8 +2621,8 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .game-template-default .page__content .page__content-wrapper .page__content-window .game-disclaimer {
-      font-size:18px;
-      line-height: 24px
+    font-size: 18px;
+    line-height: 24px
   }
 }
 
@@ -2513,7 +2634,7 @@ body.page-template h2 {
 
 @media only screen and (max-width: 1240px) {
   .page-template-default .page__content {
-      padding:50px 0 70px
+    padding: 50px 0 70px
   }
 }
 
@@ -2530,13 +2651,14 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .page-template-default .page__content-title {
-      font-size:32px;
-      line-height: 38px;
-      margin: 0 0 16px
+    font-size: 32px;
+    line-height: 38px;
+    margin: 0 0 16px
   }
 }
 
-.page-template-default h2,.page-template-default h3 {
+.page-template-default h2,
+.page-template-default h3 {
   font-family: "Harry Potter";
   font-weight: 400;
   font-size: 36px;
@@ -2548,15 +2670,17 @@ body.page-template h2 {
 }
 
 @media only screen and (max-width: 991px) {
-  .page-template-default h2,.page-template-default h3 {
-      font-size:28px;
-      line-height: 1.2;
-      margin: 0 0 16px
+
+  .page-template-default h2,
+  .page-template-default h3 {
+    font-size: 28px;
+    line-height: 1.2;
+    margin: 0 0 16px
   }
 }
 
 .page-template-default p {
-  font-family: "Nunito",sans-serif;
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 18px;
   margin: 0 0 30px
@@ -2564,8 +2688,8 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .page-template-default p {
-      font-size:16px;
-      margin: 0 0 20px
+    font-size: 16px;
+    margin: 0 0 20px
   }
 }
 
@@ -2585,10 +2709,10 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .page-template-page-contact .page-content .form-block-wrapper {
-      -webkit-box-orient:vertical;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-      flex-direction: column
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column
   }
 }
 
@@ -2617,14 +2741,14 @@ body.page-template h2 {
   line-height: 73px;
   text-align: center;
   letter-spacing: .02em;
-  color: #dbff00
+  color: #27e4a0
 }
 
 @media only screen and (max-width: 991px) {
   .main-title-big {
-      font-size:42px;
-      line-height: 48px;
-      margin: 0 0 16px
+    font-size: 42px;
+    line-height: 48px;
+    margin: 0 0 16px
   }
 }
 
@@ -2634,7 +2758,7 @@ body.page-template h2 {
   line-height: 48px;
   text-align: center;
   letter-spacing: .02em;
-  color: #dbff00;
+  color: #27e4a0;
   text-transform: uppercase;
   margin-bottom: 16px
 }
@@ -2649,8 +2773,8 @@ body.page-template h2 {
 
 @media only screen and (max-width: 1240px) {
   .main-description-medium {
-      font-size:20px;
-      line-height: 30px
+    font-size: 20px;
+    line-height: 30px
   }
 }
 
@@ -2662,15 +2786,20 @@ body.page-template h2 {
   max-width: 475px
 }
 
-#cookie-law-info-bar .cli-bar-message,#cookie-law-info-bar .cli-plugin-button,#cookie-law-info-bar .cli_settings_button {
-  font-family: "Nunito",sans-serif;
+#cookie-law-info-bar .cli-bar-message,
+#cookie-law-info-bar .cli-plugin-button,
+#cookie-law-info-bar .cli_settings_button {
+  font-family: "Nunito", sans-serif;
   font-weight: 500;
   font-size: 16px
 }
 
 @media only screen and (max-width: 991px) {
-  #cookie-law-info-bar .cli-bar-message,#cookie-law-info-bar .cli-plugin-button,#cookie-law-info-bar .cli_settings_button {
-      font-size:14px
+
+  #cookie-law-info-bar .cli-bar-message,
+  #cookie-law-info-bar .cli-plugin-button,
+  #cookie-law-info-bar .cli_settings_button {
+    font-size: 14px
   }
 }
 
@@ -2682,12 +2811,12 @@ body.page-template h2 {
 
 @media only screen and (min-width: 992px) {
   .hero {
-      padding-top:77px
+    padding-top: 77px
   }
 }
 
 .hero .hero-block {
-  background-image: linear-gradient(26.05deg,#3a1839 19.24%,#048263 161%);
+  background-image: linear-gradient(26.05deg, #3a1839 19.24%, #048263 161%);
   -webkit-border-radius: 27px;
   -moz-border-radius: 27px;
   -ms-border-radius: 27px;
@@ -2705,17 +2834,17 @@ body.page-template h2 {
 
 @media only screen and (min-width: 992px) {
   .hero .hero-block {
-      -webkit-box-orient:horizontal;
-      -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-      flex-direction: row;
-      padding: 64px 60px 100px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: 64px 60px 100px;
   }
 }
 
 @media only screen and (max-width: 991px) {
   .hero .hero-block {
-      min-height:700px
+    min-height: 700px
   }
 }
 
@@ -2726,13 +2855,13 @@ body.page-template h2 {
 
 @media only screen and (min-width: 992px) {
   .hero .hero-block .hero-title-wrapper {
-      padding:0 47px;
-      flex-basis: 70%
+    padding: 0 47px;
+    flex-basis: 70%
   }
 }
 
 .hero .hero-block .hero-title-wrapper .hero-title {
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 24px;
@@ -2742,14 +2871,14 @@ body.page-template h2 {
 
 @media only screen and (min-width: 992px) {
   .hero .hero-block .hero-title-wrapper .hero-title {
-      font-size:48px;
-      line-height: 67px;
-      margin-bottom: 26px
+    font-size: 48px;
+    line-height: 67px;
+    margin-bottom: 26px
   }
 }
 
 .hero .hero-block .hero-title-wrapper .hero-description {
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   color: #fff;
   margin-bottom: 24px;
@@ -2760,7 +2889,7 @@ body.page-template h2 {
 
 @media only screen and (min-width: 992px) {
   .hero .hero-block .hero-title-wrapper .hero-description {
-      margin-bottom:32px
+    margin-bottom: 32px
   }
 }
 
@@ -2772,15 +2901,15 @@ body.page-template h2 {
 
 @media only screen and (max-width: 767px) {
   .hero .hero-block .hero-image-wrapper {
-      position:relative;
-      margin-top: 60px
+    position: relative;
+    margin-top: 60px
   }
 
   .hero .hero-block .hero-image-wrapper img {
-      width: 120%;
-      max-width: 120%;
-      position: relative;
-      left: -20%
+    width: 120%;
+    max-width: 120%;
+    position: relative;
+    left: -20%
   }
 }
 
@@ -2801,13 +2930,13 @@ body.page-template h2 {
 
 @media only screen and (max-width: 991px) {
   .content .content-block {
-      padding:0 0 80px
+    padding: 0 0 80px
   }
 }
 
 @media only screen and (min-width: 992px) {
   .content .content-block {
-      padding-top:45px
+    padding-top: 45px
   }
 }
 
@@ -2821,45 +2950,45 @@ body.page-template h2 {
 
 @media only screen and (min-width: 992px) {
   .content .content-block .wrapper {
-      display:-webkit-box;
-      display: -ms-flexbox;
-      display: flex
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex
   }
 
   .content .content-block .wrapper img {
-      order: -1;
-      margin-top: 0;
-      max-width: 543px
+    order: -1;
+    margin-top: 0;
+    max-width: 543px
   }
 }
 
 .content .content-block .content-title {
   text-transform: uppercase;
   margin: 0 0 16px;
-  font-family: "Verdana Pro",cursive;
+  font-family: "Verdana Pro", cursive;
   font-weight: 600;
   font-size: 46px;
   line-height: 56px;
-  text-shadow: 0 2px 10px rgba(9,49,183,.3)
+  text-shadow: 0 2px 10px rgba(9, 49, 183, .3)
 }
 
 @media only screen and (max-width: 1240px) {
   .content .content-block .content-title {
-      font-size:32px;
-      line-height: 40px;
-      margin: 60px 0 20px
+    font-size: 32px;
+    line-height: 40px;
+    margin: 60px 0 20px
   }
 }
 
 @media only screen and (min-width: 992px) {
   .content .content-block .content-title {
-      font-family:"Verdana Pro",cursive;
-      font-weight: 600
+    font-family: "Verdana Pro", cursive;
+    font-weight: 600
   }
 }
 
 .content .content-block .content-subtitle {
-  font-family: "Verdana Pro",cursive;
+  font-family: "Verdana Pro", cursive;
   font-weight: 500;
   max-width: 600px;
   margin: 0 auto
@@ -2867,15 +2996,15 @@ body.page-template h2 {
 
 @media only screen and (min-width: 768px) {
   .content .content-block .content-subtitle {
-      text-align:center;
-      margin: 0 auto 50px
+    text-align: center;
+    margin: 0 auto 50px
   }
 }
 
 @media only screen and (min-width: 992px) {
   .content .content-block .content-subtitle {
-      font-family:"Verdana Pro",cursive;
-      font-weight: 400
+    font-family: "Verdana Pro", cursive;
+    font-weight: 400
   }
 }
 
@@ -2886,19 +3015,19 @@ body.page-template h2 {
 
 @media only screen and (max-width: 1240px) {
   .content .content-block .gamer {
-      margin:0 0 -34px -95px;
-      text-align: left
+    margin: 0 0 -34px -95px;
+    text-align: left
   }
 }
 
 @media only screen and (max-width: 620px) {
   .content .content-block .gamer {
-      margin:0 0 -31px -95px
+    margin: 0 0 -31px -95px
   }
 }
 
 .content .content-block h3.content-list__title {
-  font-family: "Verdana Pro",cursive;
+  font-family: "Verdana Pro", cursive;
   font-weight: 600;
   font-size: 32px;
   line-height: 39px;
@@ -2908,29 +3037,30 @@ body.page-template h2 {
 
 .container h3 {
   text-transform: uppercase;
-  font-family: "Verdana Pro",cursive;
+  font-family: "Verdana Pro", cursive;
   font-weight: 600;
   font-size: 32px;
   line-height: 52px;
   text-align: center;
-  text-shadow: 0 2px 10px rgba(9,49,183,.3)
+  text-shadow: 0 2px 10px rgba(9, 49, 183, .3)
 }
 
 @media only screen and (min-width: 768px) {
   .container h3 {
-      margin-bottom:30px
+    margin-bottom: 30px
   }
 }
 
 @media only screen and (min-width: 992px) {
   .container h3 {
-      font-size:42px
+    font-size: 42px
   }
 }
 
 .taimbroBTN {
   max-width: 40%;
 }
+
 @media only screen and (max-width: 768px) {
   .taimbroBTN {
     max-width: 100% !important;
@@ -2939,4 +3069,59 @@ body.page-template h2 {
 
 button {
   border: unset;
+}
+
+.card-bg {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(359deg, #3a18395e 19.24%, #04826300 161%);
+  position: absolute;
+  top: 0;
+  border-radius: 20px;
+}
+
+.games .games-card-list .game-card .game-card-wrapper:before,
+.related-posts .games-card-list .game-card .game-card-wrapper:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 64.1%);
+  opacity: .8
+}
+
+.games .games-card-list .game-card .game-card-wrapper .game-card-bottom,
+.related-posts .games-card-list .game-card .game-card-wrapper .game-card-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 26px 28px
+}
+
+.related-posts .games-card-list .game-card .game-card-wrapper .game-card-image {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.games .games-card-list .game-card,
+.related-posts .games-card-list .game-card {
+  outline: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: auto;
 }
