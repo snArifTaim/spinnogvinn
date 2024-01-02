@@ -11,7 +11,7 @@
                     </div>
                     <div class="form-group">
                         <div class="label-wrapper required"><label htmlFor="email">E-post</label></div>
-                        <div class="input-wrapper"><input type="text" id="email" name="email" /></div>
+                        <div class="input-wrapper"><input type="email" id="email" name="email" /></div>
                     </div>
                     <div class="form-group">
                         <div class="label-wrapper required"><label htmlFor="password">Passord</label></div>

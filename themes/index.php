@@ -50,7 +50,7 @@
                 <a href="/page/registration" class="main-button taimbroBTN"><span>Registrering</span></a>
             </div>
             <div class="hero-image-wrapper">
-                <img class=" ls-is-cached lazyloaded" src="https://www.jackpotplaneten.com/wp-content/themes/sc-games-theme/assets/design-7/img/hero-image.png" alt="hero-image" />
+                <img class=" ls-is-cached lazyloaded" src="<?php echo get_url('/assets/img/hero-image.png') ?>" alt="hero-image" />
             </div>
         </div>
     </div>
@@ -64,7 +64,7 @@
                     <div class="content-title">Sosiale casinospill som ikke koster penger</div>
                     <div class="content-subtitle"><span style="font-weight: 400">Vi tilbyr et stort utvalg av de mest spennende casinospillene på markedet helt gratis! Med det mener vi ikke bare at det er gratis å opprette en konto og bli medlem hos oss, men at du kan spille på for eksempel spilleautomater uten å satse penger på hvert spinn. Du kan derfor ta del i helt gratis casinospill uten risiko. Det er ikke enklere eller kjedeligere spill det handler om i forhold til når du betaler for å spille. Hos oss finner du nøyaktig de samme spillene, fra de ledende produsentene, som på casinoer hvor planen er at du skal gamble bort pengene dine.</span></div>
                 </div>
-                <img class=" ls-is-cached lazyloaded" src="https://monacofeber.com/wp-content/themes/sc-games-theme/assets/design-3/img/slot.png" alt="" />
+                <img class=" ls-is-cached lazyloaded" src="<?php echo get_url('/assets/img/slot.png') ?>" alt="" />
             </div>
         </div>
     </div>

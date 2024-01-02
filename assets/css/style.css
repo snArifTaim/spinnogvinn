@@ -1821,7 +1821,8 @@ a {
 .content__form .content-block form .form-block {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
+  display: flex;
+  flex-direction: column;
 }
 
 @media only screen and (max-width: 1240px) {
@@ -2301,7 +2302,9 @@ body.page-template h2 {
 
 .page-content {
   position: relative;
-  z-index: 100
+  z-index: 100;
+  background: url("/assets/img/contact-bg.jpg") center;
+  background-size: contain;
 }
 
 .hero-bg img {
@@ -2330,9 +2333,7 @@ body.page-template h2 {
 }
 
 .wrapper-bg {
-  background: #232133 url(//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../img/bg-games.png) no-repeat;
-  background-position: 50% 100%;
-  background-size: cover
+  background: #000000de;
 }
 
 .header-desktop {
@@ -2627,8 +2628,7 @@ body.page-template h2 {
 }
 
 .page-template-default .page__content {
-  background: #171717 url(//spinplaneten.com/wp-content/themes/sc-games-theme/assets/design-6/css/../img/bg-page-content.png) center bottom no-repeat;
-  background-size: cover;
+  background: #000000de;
   padding: 115px 0 140px
 }
 
@@ -2645,7 +2645,7 @@ body.page-template h2 {
   line-height: 48px;
   text-align: center;
   letter-spacing: .02em;
-  color: #dbff00;
+  color: #27e4a0;
   margin: 0 0 36px
 }
 
@@ -2665,7 +2665,7 @@ body.page-template h2 {
   line-height: 1.2;
   text-align: center;
   letter-spacing: .02em;
-  color: #dbff00;
+  color: #27e4a0;
   margin: 0 0 36px
 }
 
@@ -3124,4 +3124,22 @@ button {
   border-radius: 15px;
   overflow: hidden;
   height: auto;
+}
+
+footer img.ls-is-cached.lazyloaded {
+  width: 365px;
+}
+
+.page-template-default.about,
+  .page-template-default.terms {
+  background: url("/assets/img/contact-bg.jpg") center;
+  background-size: cover;
+}
+
+.taimbro-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: center;
 }

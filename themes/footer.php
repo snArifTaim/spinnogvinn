@@ -3,10 +3,10 @@
         <div class="container">
             <div class="footer-block">
                 <div class="decor">
-                    <img class="ls-is-cached lazyloaded" src="" />
+                    <img class="ls-is-cached lazyloaded" src="<?php echo get_url('/assets/img/banana.png') ?>" />
                 </div>
                 <a href="<?php echo get_url('/')?>" class="footer-logo">
-                    <img class=" ls-is-cached lazyloaded" src="https://www.vinnestort.com/wp-content/uploads/2022/11/Monaco_Crush__17_-removebg-preview.png" data-src="https://www.vinnestort.com/wp-content/uploads/2022/11/Monaco_Crush__17_-removebg-preview.png" alt="Logo" />
+                    <img class=" ls-is-cached lazyloaded" src="<?php echo $_ENV['footer_logo']; ?>" >
                 </a>
                 <div class="footer-info">
                     <div class="disclaimer">
